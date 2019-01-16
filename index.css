@@ -1,8 +1,8 @@
 h3{
   font-family: 'Merriweather', serif;
   font-size: 19px;
-
 }
+
 .bold {
   color: red;
 }
@@ -19,6 +19,7 @@ h3{
 	text-align:center;
 	background-color:#DDDDDD;
 }
+
 .btn.pill{
   -webkit-border-radius: 16px;
   -moz-border-radius: 16px;
@@ -48,42 +49,27 @@ h3{
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
 }
+
 .center{
   text-align: center;
 }
-/* Style the tab */
+
+.img{
+  width: 40px;
+}
+
+.imgTop{
+  width: 60px;
+  display: inline-block;
+  margin-left: 15px;
+}
+
 .tab {
   overflow: hidden;
   border: 1px solid #ccc;
   background-color: #f1f1f1;
 }
-.top{
-  display: inline-block;
-  padding-top: 10px;
-  margin-left: 15px;
-  font-family: 'Slabo 27px', serif;
 
-
-}
-.widget{
-  margin-top: 10%;
-  padding-bottom: 30px;
-  border: 0;
-  border-radius: 3px;
-  box-shadow:
-    0 10px 20px -12px rgba(0, 0, 0, 0.42), 0 3px 20px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
-  padding: 10px 0;
-  transition: all 150ms ease 0s;
-}
-.img{
-  width: 40px;
-}
-.imgTop{
-  width: 60px;
-  display: inline-block;
-  margin-left: 15px;
-
-}
 .tab button {
   background-color: inherit;
   float: left;
@@ -106,7 +92,26 @@ h3{
   display: none;
   padding: 6px 12px;
 }
+
 .tabside {
   display: none;
   padding: 14px 12px;
+}
+
+.top{
+  display: inline-block;
+  padding-top: 10px;
+  margin-left: 15px;
+  font-family: 'Slabo 27px', serif;
+}
+
+.widget{
+  margin-top: 10%;
+  padding-bottom: 30px;
+  border: 0;
+  border-radius: 3px;
+  box-shadow:
+    0 10px 20px -12px rgba(0, 0, 0, 0.42), 0 3px 20px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+  padding: 10px 0;
+  transition: all 150ms ease 0s;
 }
