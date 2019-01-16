@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<head>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="stylesheet" href="index.css">
+  <link href="https://fonts.googleapis.com/css?family=Lora|Merriweather|Noto+Serif|Oxygen|Slabo+27px" rel="stylesheet">
+
+
+</head>
+<body>
+  <div class="container widget">
+
+    <div class="container text-xs-center">
+    <img src="power1.png" class="imgTop" />
+    <h1 class="top"> Your Electricity Savings </h1>
+
+    <hr>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-4 center">
+          <br />
+          <div id="tab" class="btn-group">
+            <button class="btn pill" onclick="openTab(event, 'cars', 'cars2')"> Cars</button>
+            <button class="btn pill" onclick="openTab(event, 'trees', 'trees2')">Trees</button>
+            <button class="btn pill" onclick="openTab(event, 'carbon', 'carbon2')">Carbon</button>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-8">
+          <div id="cars" class="tabside">
+            <img src="car1.png" class="img" />
+            <img src="car1.png" class="img" />
+            <img src="car1.png" class="img" />
+            <img src="car1.png" class="img" />
+            <img src="car1.png" class="img" />
+            <img src="car1.png" class="img" />
+            <img src="car2.png" class="img" />
+            <img src="car2.png" class="img" />
+            <img src="car2.png" class="img" />
+            <img src="car2.png" class="img" />
+            <img src="car2.png" class="img" />
+            <img src="car2.png" class="img" />
+            <img src="car2.png" class="img" />
+            <img src="car2.png" class="img" />
+            <img src="car2.png" class="img" />
+            <img src="car2.png" class="img" />
+            <img src="car2.png" class="img" />
+            <img src="car2.png" class="img" />
+            <img src="car2.png" class="img" />
+            <img src="car2.png" class="img" />
+            <img src="car2.png" class="img" />
+            <img src="car2.png" class="img" />
+            <img src="car2.png" class="img" />
+            <img src="car2.png" class="img" />
+            <img src="car2.png" class="img" />
+          </div>
+
+          <div id="trees" class="tabside">
+            <img src="tree1.png" class="img" />
+            <img src="tree1.png" class="img" />
+            <img src="tree1.png" class="img" />
+            <img src="tree1.png" class="img" />
+            <img src="tree1.png" class="img" />
+            <img src="tree1.png" class="img" />
+            <img src="tree1.png" class="img" />
+            <img src="tree1.png" class="img" />
+            <img src="tree1.png" class="img" />
+            <img src="tree1.png" class="img" />
+            <img src="tree1.png" class="img" />
+            <img src="tree2.png" class="img" />
+            <img src="tree2.png" class="img" />
+            <img src="tree2.png" class="img" />
+            <img src="tree2.png" class="img" />
+            <img src="tree2.png" class="img" />
+            <img src="tree2.png" class="img" />
+            <img src="tree2.png" class="img" />
+            <img src="tree2.png" class="img" />
+            <img src="tree2.png" class="img" />
+            <img src="tree2.png" class="img" />
+            <img src="tree2.png" class="img" />
+            <img src="tree2.png" class="img" />
+            <img src="tree2.png" class="img" />
+            <img src="tree2.png" class="img" />
+            <img src="tree2.png" class="img" />
+            <img src="tree2.png" class="img" />
+            <img src="tree2.png" class="img" />
+            <img src="tree2.png" class="img" />
+            <img src="tree2.png" class="img" />
+            <img src="tree2.png" class="img" />
+            <img src="tree2.png" class="img" />
+            <img src="tree2.png" class="img" />
+            <img src="tree2.png" class="img" />
+         </div>
+
+          <div id="carbon" class="tabside">
+            <img src="carbon1.png" class="img" />
+            <img src="carbon1.png" class="img" />
+            <img src="carbon1.png" class="img" />
+            <img src="carbon1.png" class="img" />
+            <img src="carbon1.png" class="img" />
+            <img src="carbon1.png" class="img" />
+            <img src="carbon1.png" class="img" />
+            <img src="carbon1.png" class="img" />
+            <img src="carbon2.png" class="img" />
+            <img src="carbon2.png" class="img" />
+            <img src="carbon2.png" class="img" />
+            <img src="carbon2.png" class="img" />
+            <img src="carbon2.png" class="img" />
+            <img src="carbon2.png" class="img" />
+            <img src="carbon2.png" class="img" />
+            <img src="carbon2.png" class="img" />
+            <img src="carbon2.png" class="img" />
+            <img src="carbon2.png" class="img" />
+            <img src="carbon2.png" class="img" />
+            <img src="carbon2.png" class="img" />
+            <img src="carbon2.png" class="img" />
+            <img src="carbon2.png" class="img" />
+            <img src="carbon2.png" class="img" />
+            <img src="carbon2.png" class="img" />
+            <img src="carbon2.png" class="img" />
+            <img src="carbon2.png" class="img" />
+            <img src="carbon2.png" class="img" />
+            <img src="carbon2.png" class="img" />
+            <img src="carbon2.png" class="img" />
+            <img src="carbon2.png" class="img" />
+            <img src="carbon2.png" class="img" />
+            <img src="carbon2.png" class="img" />
+            <img src="carbon2.png" class="img" />
+            <img src="carbon2.png" class="img" />
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="cars2" class="tabcontent">
+      <h3>Last month, you saved enough energy to take <span class="bold">six</span> cars off the road!</h3>
+      <p>Great Job! You used 573 kWh last month, compared to the 791 kWh used in the same month last year. The resulting savings is enough to offset the energy consumption of six average-size cars for one month.</p>
+    </div>
+
+    <div id="trees2" class="tabcontent">
+      <h3>Last month, you saved enough energy to save <span class="bold">eleven</span> trees!</h3>
+      <p>Great Job! You used 573 kWh last month, compared to the 791 kWh used in the same month last year. The resulting savings is enough to offset the energy consumption of eleven average-size trees for one month.</p>
+    </div>
+
+    <div id="carbon2" class="tabcontent">
+      <h3>Last month, you saved enough energy to take <span class="bold">eight thousand</span> carbon particals out of the air!</h3>
+      <p>Great Job! You used 573 kWh last month, compared to the 791 kWh used in the same month last year. The resulting savings is enough to offset the energy consumption of eight thousand CO2 molecules for one month.</p>
+    </div>
+  </div>
+  <br />
+</div>
+
+<script>
+  function openTab(evt, tab, tab2) {
+    var i, tabContent, tabLinks, tabSide;
+    tabContent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabContent.length; i++) {
+      tabContent[i].style.display = "none";
+    }
+    tabSide = document.getElementsByClassName("tabside");
+    for (i = 0; i < tabSide.length; i++) {
+      tabSide[i].style.display = "none";
+    }
+    tabLinks = document.getElementsByClassName("pill");
+    for (i = 0; i < tabLinks.length; i++) {
+      tabLinks[i].className = tabLinks[i].className.replace(" active", "");
+    }
+    document.getElementById(tab).style.display = "block";
+    evt.currentTarget.className += " active";
+    document.getElementById(tab2).style.display = "block";
+    evt.currentTarget.className += " active";
+  }
+</script>
+</body>
